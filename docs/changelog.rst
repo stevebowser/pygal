@@ -2,6 +2,20 @@
 Changelog
 =========
 
+2.3.0 UNRELEASED
+================
+
+* New call API: `chart = Line(fill=True); chart.add('title', [1, 3, 12]); chart.render()` can now be replaced with `Line(fill=True)(1, 3, 12, title='title').render()`
+
+
+2.2.3
+=====
+
+* Fix bar static value positioning (#315)
+* Add stroke_opacity style (#321)
+* Remove useless js in sparklines. (#312)
+
+
 2.2.2
 =====
 
